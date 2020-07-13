@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class GoodServiceApplication {
-
+    private String str="122";
     public static void main(String[] args) {
         SpringApplication.run(GoodServiceApplication.class, args);
     }
